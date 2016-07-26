@@ -1,0 +1,13 @@
+
+<%= form_for(@payment) do |f| %>
+ <div class="field">
+   <%= f.label:時給 %>
+   <%= f.text_field:時給 %>
+   <%= f.submit %>
+ </div>
+
+<% if @payment %>
+ <p>時給は<%= @payment %>円です</p>
+<else>
+  <p>時給を入力してね！</p>
+<% end %>

@@ -1,0 +1,2 @@
+module PaymentHoursHelper
+end
